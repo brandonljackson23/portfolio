@@ -61,6 +61,49 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     border-radius: 15px;
 }
+.hero {    
+    background-image: url("../../images/coding-bg.jpeg");
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+/* flex parent */
+.flex-container {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  /* flex child */
+.flex-item {
+    /* make each one 45%, putting 10% between each element on the page */
+    width: 49%;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section-title {
+    font-size: 24px;
+    color: var(--secondary-color);
+    border-right: 3px solid;
+    padding: 0 10px;
+    text-align: right;
+}
+.section-content {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}   
 footer {
     background: var(--tertiary-color);
     width: 100%;
