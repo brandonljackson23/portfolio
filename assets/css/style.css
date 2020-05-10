@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Body styles */
 body {
     color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
@@ -32,12 +33,14 @@ header {
     top: 0;
     z-index: 9999;
 }
+  /* page title */
 header h1 {
     font-weight: bold;
     font-size: 36 px;
     color: var(--primary-color);
     margin: 0;
 }
+/* navigation styles */
 header a {
     text-decoration: none;
     color: var(--primary-color);
@@ -57,11 +60,13 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.5vw;
 }
+/* hover effect */
 header nav ul li a:hover {
     background: rgba(255, 255, 255, 0.5);
     color: var(--secondary-color);
     border-radius: 15px;
 }
+/* hero/jumbotron styles */
 .hero {    
     background-image: url("../../images/coding-bg.jpeg");
     background-size: cover;
@@ -85,18 +90,18 @@ header nav ul li a:hover {
     margin: auto 20px 20px 0;
     width: 100%;
     background-color: rgb(191, 210, 216);
+    text-align: center;
     color: var(--secondary-color);
     padding: 10px 5px;
     border: 5px solid;
     border-radius: 5px;
-    text-align: center;
 }
 /* flex parent */
 .flex-container {
-    margin: 10px auto;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: stretch;
     width: 100%;
   }
@@ -105,24 +110,27 @@ header nav ul li a:hover {
     width: 49%;
     font-size: 22px;
     font-weight: bold;
-    margin: 10px auto;
+    margin: 0 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
+  /* flex child column 1*/
 .section-title {
     font-size: 24px;
     color: var(--secondary-color);
     border-right: 3px solid;
+    margin: 0 0 0 150px;
     padding: 0 10px;
     text-align: right;
     flex: 0 0 160px;
 }
+  /* flex child column 2*/
 .section-content {
     font-size: 16px;
     text-align: left;
-    padding: 10px;
 }
+  /* My Work grid */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -139,7 +147,7 @@ header nav ul li a:hover {
     border-radius: 5px;
     line-height: 0.75;
 }
-/* Turn the entire grid-item a link */
+/* turn grid-items into links */
 .grid-item:hover {
     cursor: hand;
     cursor: pointer;
@@ -157,6 +165,7 @@ a.grid-item {
     opacity: 0;
     filter: alpha(opacity=0);
 }
+  /* labels for grid-items */
 .grid-item span {
     margin: auto 0 20px 0;
     width: 20%;
@@ -166,12 +175,15 @@ a.grid-item {
     padding: 10px 5px;
     text-align: left;
 }
+  /* label line 1*/
 .grid-item h3 {
     font-size: 24px;
 }
+  /* label line 2*/
 .grid-item h4 {
     font-size: 14px;
 }
+  /* increase size of item-1 */
 .item-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
