@@ -87,7 +87,7 @@ header nav ul li a:hover {
 }
 .hero span {
     display: flex;
-    margin: auto 20px 20px 0;
+    margin: 15px 0;
     width: 100%;
     background-color: rgb(191, 210, 216);
     text-align: center;
@@ -168,8 +168,7 @@ a.grid-item {
   /* labels for grid-items */
 .grid-item span {
     margin: auto 0 20px 0;
-    width: 20%;
-    min-width: 140px;
+    width: auto;
     background-color: rgb(191, 210, 216);
     color: var(--secondary-color);
     padding: 10px 5px;
@@ -190,14 +189,14 @@ a.grid-item {
     background-image: url("../../images/run-buddy-img.PNG");
 }
 .item-2 {
-    background-image: url("../../images/run-buddy-img.PNG");
+    background-image: url("../../images/horiseon.PNG");
 }
 .item-3 {
-    background-image: url("../../images/run-buddy-img.PNG");
+    background-image: url("../../images/javascript.jpg");
 }
 .item-4 {
-    background-image: url("../../images/run-buddy-img.PNG");
+    background-image: url("../../images/binary-code.jpg");
 }
 .item-5 {
-    background-image: url("../../images/run-buddy-img.PNG");
+    background-image: url("../../images/code.jpg");
 }    
