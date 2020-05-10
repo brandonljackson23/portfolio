@@ -172,9 +172,9 @@ header nav ul li a:hover {
 }
   /* labels for grid-items */
 .grid-item span {
-    position: sticky;
     margin: auto 0 20px 0;
     width: auto;
+    height: auto;
     background-color: rgb(191, 210, 216);
     color: var(--secondary-color);
     padding: 10px 5px;
