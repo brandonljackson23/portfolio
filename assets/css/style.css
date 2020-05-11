@@ -221,6 +221,7 @@ header nav ul li a:hover {
 }
 .contact-me ul li {
     padding: 10px 15px;
+    text-decoration: none;
 }   
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
