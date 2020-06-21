@@ -192,19 +192,22 @@ header nav ul li a:hover {
 .item-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: url("../../images/run-buddy-img.PNG");
+    background-image: url("../../images/death-roll.PNG");
 }
 .item-2 {
-    background-image: url("../../images/horiseon.PNG");
+    background-image: url("../../images/weather-app.PNG");
 }
 .item-3 {
-    background-image: url("../../images/javascript.jpg");
+    background-image: url("../../images/start-quiz.PNG");
 }
 .item-4 {
-    background-image: url("../../images/binary-code.jpg");
+    background-image: url("../../images/pwd-generator.PNG");
 }
 .item-5 {
-    background-image: url("../../images/code.jpg");
+    background-image: url("../../images/daily-scheduler.PNG");
+}
+.item-6 {
+    background-image: url("../../images/horiseon.PNG");
 }
 .contact-me {
     display: flex;
